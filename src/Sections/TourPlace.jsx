@@ -7,7 +7,7 @@ import Card from '../Components/Card';
 
 const TourPlace = () => {
     return (
-        <div>
+        <div id='tours'>
             <SectionHeading heading={'Tour place for you'} subHeading={'top'} paragraph={'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Ipsum is simply dummy text of the printing and typesetting industry.'}></SectionHeading>
             <div className="max-w-7xl mx-auto px-4 py-10">
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">

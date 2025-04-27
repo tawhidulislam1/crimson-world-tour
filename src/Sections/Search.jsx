@@ -2,7 +2,7 @@
 import img1 from "../assets/Search_cover.png"
 const Search = () => {
     return (
-        <div className="relative w-full h-[450px] bg-cover bg-center" style={{ backgroundImage: `url(${img1})` }}>
+        <div id="contact" className="relative w-full h-[450px] bg-cover bg-center" style={{ backgroundImage: `url(${img1})` }}>
 
             {/* Search Box */}
             <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 w-full px-4">

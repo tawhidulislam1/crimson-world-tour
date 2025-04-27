@@ -4,7 +4,7 @@ import img from "../assets/img 1.png"
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <div className="mt-10 text-center max-w-xl mx-auto">
                 <h2 className="text-3xl font-bold">Why <span className="text-[#FFCD05]">Crimson</span> Tours </h2>
                 <p className="text-[14px] text-[#323232] py-1 px-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -13,7 +13,7 @@ const About = () => {
                 {/* Left: Image */}
                 <div className="flex justify-center md:w-1/2">
                     <img
-                        src={img} 
+                        src={img}
                         alt="Smiling person"
                         className="rounded-2xl shadow-lg"
                     />

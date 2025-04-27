@@ -1,11 +1,11 @@
 import logo from "../assets/logo.png";
 const Navbar = () => {
     const links = <>
-        <li><a>Home</a></li>
-        <li><a>Destination</a></li>
-        <li><a>Tours</a></li>
-        <li><a>Contact</a></li>
-        <li><a>About Us </a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destination">Destination</a></li>
+        <li><a href="#tours">Tours</a></li>
+        <li><a href="#about">About Us </a></li>
+        <li><a href="#contact">Contact</a></li>
 
     </>
     return (

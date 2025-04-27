@@ -4,7 +4,7 @@ import { FaBook, FaMapLocationDot, FaPlane } from "react-icons/fa6";
 
 const EasyTips = () => {
     return (
-        <section className="max-w-7xl mx-auto px-4 py-16">
+        <section className="max-w-7xl mx-auto px-4 py-16" >
             <div className="flex flex-col md:flex-row items-center gap-12">
 
                 {/* Left Side - Steps */}
