@@ -9,7 +9,7 @@ const Navbar = () => {
 
     </>
     return (
-        <nav className="max-w-full sm:max-w-96 lg:max-w-7xl mx-auto ">
+        <nav className="max-w-full lg:max-w-7xl mx-auto ">
             <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
