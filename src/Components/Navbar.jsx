@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 const Navbar = () => {
     const links = <>
@@ -30,9 +31,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-2.5">
-                    <button className="btn bg-[#FFCD05] text-black rounded-4xl  py-5 px-7">
-                        Login
-                    </button>
+                    <Link to={'/login'}>
+                        <button className="btn bg-[#FFCD05] text-black rounded-4xl  py-5 px-7">
+                            Login
+                        </button></Link>
                     <button className="btn border-[#FFCD05] bg-none text-black rounded-4xl  py-5 px-7">
                         Register
                     </button>
